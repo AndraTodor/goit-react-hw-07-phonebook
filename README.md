@@ -1,17 +1,18 @@
 ### 📞 Contact Book Application
 
-Welcome to the Contact Book app, a simple and intuitive contact management
-application built with modern web development technologies. This app allows
-users to save, search, and delete contacts, and it ensures data persistence
-using Redux Persist. The app is fully responsive and styled using modern CSS
-utilities.
+Description Contact Book is a web application built with React that allows users
+to manage a list of contacts. This application provides functionalities for
+adding, deleting, and filtering contacts while using MockAPI to store the data.
+It’s an ideal project to learn about state management with Redux Toolkit,
+utilizing external APIs, and structuring components in React.
 
 ### 🚀 Features
 
-Add new contacts with name and phone number. Search contacts by name using a
-dynamic filter. Delete existing contacts with ease. Persistent contact storage
-using localStorage via Redux Persist. Fully responsive design for seamless use
-on all devices.
+Add Contacts: Users can add new contacts through a simple form.  
+Delete Contacts: Users can remove existing contacts from their contact list.  
+Filter Contacts: Allows users to search for contacts by name.  
+Data Persistence: Contacts are stored on a mock backend using MockAPI, enabling
+users to view and modify stored data.
 
 ### 🛠️ Technologies and 📦 Libraries Used
 
@@ -21,25 +22,16 @@ on all devices.
   **Redux Toolkit** - State management library for handling application state.
 - ![React Redux](https://img.shields.io/badge/-React_Redux-764ABC?logo=redux&logoColor=white&style=flat)
   **React Redux** - For connecting Redux state management with React components.
-- ![Redux Persist](https://img.shields.io/badge/-Redux_Persist-3DDC84?logo=redux&logoColor=white&style=flat)
-  **Redux Persist** - For persisting the state of the contacts into
-  localStorage.
-- ![nanoid](https://img.shields.io/badge/-nanoid-00C853?style=flat&logo=nano)
-  **nanoid** - A tiny, secure, URL-friendly unique string ID generator used for
-  generating contact IDs.
+- ![Axios](https://img.shields.io/badge/axios%20-8A2BE2) **Axios React** - A
+  promise-based HTTP client for the browser and Node.js. It provides an easy way
+  to send asynchronous HTTP requests to REST endpoints and handle responses.
+- ![MockAPI](https://img.shields.io/badge/MockAPI%20-8A2BE2) **MockAPI** - A
+  simple and powerful API service that allows you to set up a mock backend for
+  your application quickly. It enables you to create, read, update, and delete
+  data without needing a full backend implementation.
 - ![Tailwind CSS](https://img.shields.io/badge/-TailwindCSS-38B2AC?logo=tailwindcss&logoColor=white&style=flat)
   **Tailwind CSS** - A utility-first CSS framework for creating a responsive and
   modern UI with minimal effort.
-
-### 📚 How to Use Add Contact:
-
-Simply enter a contact name and phone number in the provided fields and click
-the "Add Contact" button. The contact will be saved to the list.  
-Search Contacts: Use the search bar to dynamically filter contacts by name.  
-Delete Contact: Click the "Delete" button next to any contact to remove it from
-the list.  
-Persistent Storage: Your contacts will remain saved even after refreshing or
-closing the app, thanks to Redux Persist.
 
 ### ✨ Live Demo
 

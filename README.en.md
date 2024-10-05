@@ -22,14 +22,13 @@ users to view and modify stored data.
   **Redux Toolkit** - State management library for handling application state.
 - ![React Redux](https://img.shields.io/badge/-React_Redux-764ABC?logo=redux&logoColor=white&style=flat)
   **React Redux** - For connecting Redux state management with React components.
-- ![Axios](https://img.shields.io/badge/axios%20-8A2BE2)  
-  **Axios React** - A promise-based HTTP client for the browser and Node.js. It
-  provides an easy way to send asynchronous HTTP requests to REST endpoints and
-  handle responses.
-- ![MockAPI](https://img.shields.io/badge/axios%20-8A2BE2)  
-  **MockAPI** - A simple and powerful API service that allows you to set up a
-  mock backend for your application quickly. It enables you to create, read,
-  update, and delete data without needing a full backend implementation.
+- ![Axios](https://img.shields.io/badge/axios%20-8A2BE2) **Axios React** - A
+  promise-based HTTP client for the browser and Node.js. It provides an easy way
+  to send asynchronous HTTP requests to REST endpoints and handle responses.
+- ![MockAPI](https://img.shields.io/badge/MockAPI%20-8A2BE2) **MockAPI** - A
+  simple and powerful API service that allows you to set up a mock backend for
+  your application quickly. It enables you to create, read, update, and delete
+  data without needing a full backend implementation.
 - ![Tailwind CSS](https://img.shields.io/badge/-TailwindCSS-38B2AC?logo=tailwindcss&logoColor=white&style=flat)
   **Tailwind CSS** - A utility-first CSS framework for creating a responsive and
   modern UI with minimal effort.
